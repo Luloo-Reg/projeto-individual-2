@@ -1,0 +1,134 @@
+@font-face {
+   font-family: 'fontePersonalizada';
+   src: url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap') format('truetype');
+   font-weight: 400;
+   font-style: normal;
+}
+
+body {
+   background-color: #df969f;
+}
+.apresentacao
+{
+   background-color:rgb(237, 177, 255);
+   margin: 0 auto;
+   width:45%;
+   padding:0.7%;
+   position: absolute;
+   left: 27%;
+   top: 74%;
+   box-shadow: 10px 20px 20px #665c69;
+   border: 10px  black;
+  
+}
+
+#lvl
+{
+   text-align: center;
+   font-size: larger;
+   background-color: antiquewhite;
+   width: 45%;
+   margin: 0 auto;
+}
+
+.puppyCat img
+{
+   width: 306px;
+   height: 339px;
+   position: absolute;
+   left:10%;
+   top: 32%;
+   border: 7px solid rgb(146, 58, 87);
+}
+
+
+#Meusgostos
+{
+   background-color: rgb(225, 233, 241);
+  
+   width:63%;
+   position: absolute;
+   left: 10%;
+   top: 110%;
+
+   display: flex; /* Alinha as divs lado a lado */
+   justify-content: space-around; /* Adiciona espaço ao redor das divs */
+   padding: 20px; /* Espaçamento interno da container */
+   margin-bottom: 20%;
+   border: 5px solid rgb(146, 58, 87);
+}
+
+
+.gostos{
+   flex: 1; /* Permite que as divs ocupem espaço igual */
+   margin: 0 10px; /* Espaçamento entre as divs */
+}
+
+.gostos h3
+{
+   text-align: center;
+   font-size: x-large;
+}
+.list {
+   text-align: center;
+   list-style-type: none; /* Remove os marcadores da lista */
+   padding: 0; /* Remove o padding padrão da lista */
+   margin: 0; /* Remove a margem padrão da lista */
+   border: 2px solid #da8190; /* Adiciona uma borda ao redor da lista */
+   padding: 10px; /* Espaçamento interno da lista */
+   background-color:antiquewhite; /* Cor de fundo da lista */
+}
+
+.list li {
+   padding: 5px 0; /* Espaçamento entre os itens da lista */
+   font-size: larger;
+}
+
+
+.imagemText {
+   position: relative;
+   display: inline-block;
+}
+
+.imagemText img {
+   display: block; /* Remove o espaçamento extra abaixo da imagem */
+   width: 40%; /* Ajuste conforme necessário */
+   height: auto; /* Ajuste conforme necessário */
+   position: relative;
+   top:55px; /* Ajuste este valor para mover a imagem para baixo */
+   left: 90%; /* Ajuste este valor se necessário para reposicionar horizontalmente */
+}
+
+.textImagem
+{
+   font-family: 'fontePersonalizada', cursive;
+   font-weight: 400;
+   font-style: normal;
+   position: absolute;
+   top: 88%;
+   left: 110%;
+   transform: translate(-50%, -50%);
+   color: black; /* Cor do texto */
+   padding: 10px; /* Espaçamento ao redor do texto */
+   border-radius: 5px; /* Arredondamento das bordas */
+   font-size: xx-large; /* Tamanho da fonte */
+}
+
+#header
+{
+   margin: 0 auto;
+   font-size: x-large;
+   font-family: cursive;
+   color: ghostwhite;
+   width: 40%;
+   text-align: center;
+   
+   /* Adicionando uma borda inferior colada ao texto */
+   border-bottom: 5px solid ghostwhite; /* Largura, estilo e cor da borda */
+   border-left: 0px;
+   border-right: 0px;
+   border-top: 0px;
+   margin-bottom: 0; /* Remove qualquer margem abaixo do header */
+   padding-bottom: 0; /* Remove qualquer padding extra na parte inferior */
+   border-style:dotted;
+}
